@@ -7,6 +7,14 @@ In the first part, we use an API to obtain weather information from around the w
 
 What we found was that, while there is a strong correlation between temperature and latitude, there is little to no correlation between other aspects of weather and latitude. 
 
+As an example of the results found, this is a graph comparing the temperature of the northern hemisphere to lattitude. As you can see, the data is grouped closely and clearly follows the slope of the regression line. This comparison has a correlation of -0.88, so is fairly strong.
+
+![alt text](https://github.com/KStrange89/python-api-challenge/blob/main/Weatherpy/north_temp_v_lat.png)
+
+On the other hand, this is a graph comparing the humidity of the northern hemisphere to lattitude. The data is scattered everywhere and there is no definitive pattern. This comparison has a correlation of 0.05, so is extremely weak and we can say there is no correlation.
+
+![alt text](https://github.com/KStrange89/python-api-challenge/blob/main/Weatherpy/north_hum_v_lat.png)
+
 Note:
 
 In order to succesfully run this code, citipy will need to be installed and an api key must be obtained.
@@ -17,6 +25,9 @@ For the second part of the challenge, we use weather data to plan a vacation! My
 
 I began by importing the data from the Weatherpy challenge and reading it into a dataframe. I then filtered the dataframe for my preferences regarding humidity, temperature, and cloudiness. From this dataframe of places with perfect weather, I took a sample of 5 and found an hotel in each location. Finally, I marked these locations on a map. 
 
+This is a short list of the locations suggested for my next vacation with hotel recommendations. Now all that's left is making the reservations!
+
+![alt text](https://github.com/KStrange89/python-api-challenge/blob/main/Vacationpy/cities_to_visit.png)
 
 Note:
 
