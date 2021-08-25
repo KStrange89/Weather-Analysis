@@ -1,6 +1,6 @@
 # python-api-challenge
 
-This is a two part challenge designed to reinforce API knowledge.
+This is a two part challenge designed to reinforce understanding of APIs.
 
 ## Weather
 In the first part, we use an API to obtain weather information from around the world. We then use that information to look for trends in relation to the equator using matplotlib and scipy.
